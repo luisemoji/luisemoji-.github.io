@@ -73,23 +73,39 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, velit quam. Quidem accusantium quod distinctio cumque expedita accusamus delectus doloremque laborum sapiente, et reprehenderit! Vero facere eveniet accusamus architecto qui. Lorem
             ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ab, vel veritatis nobis aut fugiat, adipisci magni expedita recusandae libero ex nostrum sed aperiam quidem, beatae quos! Ipsa, possimus veniam! Lorem ipsum, dolor sit amet consectetur
             adipisicing elit. Temporibus voluptatum porro quaerat voluptatem ad iusto modi amet labore voluptate soluta, dicta fugiat praesentium assumenda rem. Voluptas porro libero quasi fugit?</p>
+        <center>
+            <br><br><br>
+            <div onclick="typeWriter() " style="  color: #323b3f;">
+                Hecho con
+                <span class="heartbeat">❤</span> y mucho código
+                <small>    <a id="powered " href="https://luisangelmaciel.github.io/ " > </a> </small> <br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </center>
+
     </main>
     <!-- partial -->
     <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
     <script src='https://assets.codepen.io/16327/Flip.min.js'></script>
     <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
     <script src="./script.js"></script>
+    <!-- Logo -->
+    <link rel="icon" href="https://luisemoji.github.io/img/favicon.svg " type="image/x-icon" sizes="192x192 " />
+    <link rel="stylesheet" href="../css/logo.css">
+    <img src="../img/emoji.svg " alt="@luisemoji " class="logo lift a-up " height="35px;" width="35px;" onclick="document.location='../index.html'">
 
-</body>
+    <script>
+        var i = 0;
+        var txt = 'designer luisangel.maciel';
+        var speed = 65;
 
-</html> qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ab, vel veritatis nobis aut fugiat, adipisci magni expedita recusandae libero ex nostrum sed aperiam quidem, beatae quos! Ipsa, possimus veniam! Lorem ipsum, dolor sit amet consectetur
-adipisicing elit. Temporibus voluptatum porro quaerat voluptatem ad iusto modi amet labore voluptate soluta, dicta fugiat praesentium assumenda rem. Voluptas porro libero quasi fugit?</p>
-</main>
-<!-- partial -->
-<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
-<script src='https://assets.codepen.io/16327/Flip.min.js'></script>
-<script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
-<script src="./script.js"></script>
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("powered ").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+    </script>
 
 </body>
 

@@ -79,6 +79,27 @@
     <!-- partial -->
     <script src="js/script.js"></script>
 
+    <!-- Logo -->
+    <link rel="icon" href="https://luisemoji.github.io/img/favicon.svg " type="image/x-icon" sizes="192x192 " />
+    <link rel="stylesheet" href="../css/logo.css">
+    <img src="../img/emoji.svg " alt="@luisemoji " class="logo lift a-up " height="35px;" width="35px;" onclick="typeWriter() ">
+    <center><br><br><br>
+        <div style="  color: #323b3f;" id="powered " onclick="document.location='../index.html'"></div><br><br><br>
+    </center>
+
+    <script>
+        var i = 0;
+        var txt = 'hecho con ❤ por luisangelmaciel';
+        var speed = 65;
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("powered ").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+    </script>
 </body>
 
 </html>
