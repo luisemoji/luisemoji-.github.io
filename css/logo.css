@@ -7,6 +7,15 @@
     transition: all 250ms linear;
 }
 
+
+/* mini */
+
+@media (max-width:300px) {
+    .logo {
+        display: none!important
+    }
+}
+
 .a-up {}
 
 .a-up.lift {
