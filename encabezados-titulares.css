@@ -81,7 +81,6 @@ cta-block * {
 }
 
 .card1 .cta-line2 {
-    text-transform: uppercase;
     font-weight: 600;
     padding: .5rem 0;
     font-size: 280%
@@ -199,7 +198,6 @@ cta-block * {
 }
 
 .card3 .cta-line2 {
-    text-transform: uppercase;
     font-weight: 100;
     letter-spacing: -.05em;
     font-size: 3.5rem;
@@ -209,7 +207,6 @@ cta-block * {
 
 .card3 .cta-line3 {
     text-align: right;
-    text-transform: uppercase;
     background-image: linear-gradient(to right, rgba(0, 8, 128, 0) 0%, rgba(128, 0, 128, 1) 100%);
     background-blend-mode: multiply;
     padding: .5em;
@@ -261,7 +258,6 @@ cta-block * {
 }
 
 .card4 .cta-line3 {
-    text-transform: uppercase;
     color: orange;
     font-weight: 200;
     padding: .5rem;
@@ -317,7 +313,6 @@ cta-block * {
 }
 
 .card5 .cta-line2 {
-    text-transform: uppercase;
     font-weight: 100;
     font-size: 3rem;
     margin: 1rem 0;
@@ -351,7 +346,7 @@ cta-block * {
 }
 
 .card2 .cta-link::before {
-    content: '☕️';
+    content: '☀️';
     position: absolute;
     font-size: 10rem;
     bottom: -3rem;
@@ -360,7 +355,6 @@ cta-block * {
 }
 
 .card2 .cta-line1 {
-    text-transform: uppercase;
     font-size: 1rem;
     font-weight: 200;
     letter-spacing: -.05em;
@@ -378,7 +372,6 @@ cta-block * {
     font-weight: 400;
     font-size: 1rem;
     padding: .5rem 0;
-    text-transform: uppercase;
     border-bottom: 1px solid #ffffff;
     z-index: 1;
 }
